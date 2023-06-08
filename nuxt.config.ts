@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Martin's Nuxt Starter",
+      title: "GSAP Animation tests",
     },
   },
   modules: [
@@ -19,5 +19,8 @@ export default defineNuxtConfig({
   lodash: {
     prefix: "_",
     upperAfterPrefix: false,
+  },
+  build: {
+    transpile: ["gsap"],
   },
 });

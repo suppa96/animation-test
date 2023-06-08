@@ -5,3 +5,9 @@
 body {
   @apply bg-gray-800 text-white;
 }
+
+@layer base {
+  .button-default-style {
+    @apply block text-black bg-white border border-black active:bg-gray-300 p-1;
+  }
+}
